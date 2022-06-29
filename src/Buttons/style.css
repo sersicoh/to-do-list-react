@@ -3,6 +3,7 @@
     border: none;
     color: teal;
     background-color: white;
+    transition: 0.5s;
 }
 
 @media(max-width:767px) {
