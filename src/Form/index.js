@@ -1,13 +1,13 @@
 import "./style.css";
 import { useState } from "react";
 
-const Form = ({addNewTask}) => {
-    const [newTaskContent, setNewTakContent] = useState("");
+const Form = ({ addNewTask }) => {
+    const [newTaskContent, setNewTaskContent] = useState("");
 
     const onFormSubmit = (event) => {
         event.preventDefault();
         addNewTask(newTaskContent.trim());
-        setNewTakContent("");
+        setNewTaskContent("");
     }
 
     return (
@@ -18,7 +18,7 @@ const Form = ({addNewTask}) => {
                 value={newTaskContent}
                 className="form__inputBox"
                 placeholder="Co jest do zrobienia?"
-                onChange={({ target }) => setNewTakContent(target.value)}
+                onChange={({ target }) => setNewTaskContent(target.value)}
             />
             <button
                 className="form__button">
