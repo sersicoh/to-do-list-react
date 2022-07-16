@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
-import { usePrepareTasks } from "./prepareTasks.js";
+import { usePrepareTasks } from "./usePrepareTasks.js";
 
 function App() {
 

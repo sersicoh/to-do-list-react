@@ -1,4 +1,4 @@
-import useLocalStorageManager from "./LocalStorageManager"
+import useLocalStorageManager from "./useLocalStorageManager"
 
 export const usePrepareTasks = () => {
 
