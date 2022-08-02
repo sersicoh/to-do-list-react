@@ -4,10 +4,7 @@
 [link to: to-do-list-with-react](https://sersicoh.github.io/to-do-list-react/)
 
 ## Description
-As one of my homework, I was going to make a small and simple to-do list app. For now this app have not interactions yet.
-
-## Updates
-This version is next homework. I refactored to react app.
+As one of my homework, I was going to make a small and simple to-do list app.
 
 ## Update 02.08.2022
 Application is running with React-Redux and Styled Components
