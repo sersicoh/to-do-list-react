@@ -26,7 +26,7 @@ const List = () => {
                </Content>
                <Button
                   remove
-                  onClick={() => dispatch(removeTask())}>
+                  onClick={() => dispatch(removeTask(task.id))}>
                   🗑
                </Button>
             </Item>
