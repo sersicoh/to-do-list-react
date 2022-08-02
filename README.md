@@ -9,6 +9,9 @@ As one of my homework, I was going to make a small and simple to-do list app. Fo
 ## Updates
 This version is next homework. I refactored to react app.
 
+## Update 02.08.2022
+Application is running with React-Redux and Styled Components
+
 ## Available Scripts
 
 In the project directory, you can run:
