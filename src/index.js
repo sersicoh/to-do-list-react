@@ -3,6 +3,35 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { configureStore } from '@reduxjs/toolkit';
+
+const initialState = {
+  tasks: [],
+};
+const taskReducer = (state = initialState, action) => {
+
+  switch (action.type) {
+    case "addTask":
+      return {
+        ...state,
+        tasks: [
+          ...state.tasks,
+          {
+            content: action.payload,
+          }
+        ],
+      };
+    default:
+      return state;
+  }
+};
+
+const store = configureStore({reducer: taskReducer});
+console.log(store.getState());
+// const addTaskAction = {
+//   type: "addTask",
+//   payload: "Nauczyć się Reduxa",
+// };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
