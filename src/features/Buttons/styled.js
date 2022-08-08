@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ActionButtons = styled.div`
+display: grid;
+grid-template-columns: 1fr auto;
     @media(max-width:767px){
         display: grid;
         grid-template-columns: auto;
