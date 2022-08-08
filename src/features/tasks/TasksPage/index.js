@@ -1,12 +1,12 @@
-import React from "react";
 import Form from "./Form";
 import List from "./List";
 import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import Container from "../../common/Container";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import Container from "../../../common/Container";
+import Search from "./Search";
 
-function Tasks() {
+function TasksPage() {
 
   return (
     <Container>
@@ -14,6 +14,10 @@ function Tasks() {
       <Section
         title="Dodaj nowe zadanie"
         body={<Form />}
+      />
+      <Section
+        title="Wyszukaj zadanie"
+        body={<Search />}
       />
       <Section
         title="Lista zadań"
@@ -27,4 +31,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;

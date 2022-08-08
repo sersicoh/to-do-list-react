@@ -11,10 +11,6 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const FormInput = styled.input`
-    padding: 8px;
-`;
-
 export const FormButton = styled.button`
     background-color: teal;
     color: white;
