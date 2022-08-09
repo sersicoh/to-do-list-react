@@ -15,15 +15,14 @@ export default () => (
                     emigrację do Anglii, ale wróciłem na dobre w 2017.
                 </p>
                 <p>
-                    Aktualnie pracuję jako "mechanik / programista". Pokrótce jestem mechanikiem w dziale utrzymania ruchu w
+                    Aktualnie pracuję jako <strong>"mechanik / programista"</strong>. Pokrótce jestem mechanikiem w dziale utrzymania ruchu w
                     firmie zajmującej się produkcją i dystrybucją dekoracji ściennych domowych. Jestem odpowiedzialny za
                     stan maszyn produkcyjnych, głównie są to drukarki "wielkoformatowe". Drugą częścią, tą istotniejszą jest
-                    programowanie w JS w środowisku Adobe. Dla przykładu jest to dzielenie jednego dużego pliku graficznego
-                    na paski tapety o szerokości 50cm. Mamy ponad 40 różnych produktów i wszystkie są zautomatyzowane. Dane
-                    potrzebne do przygotowania danego zlecenia wpadają z wewnętrznego serwera naszej firmie w postaci JSONa.
+                    programowanie w <strong>JS (ES3)</strong> w środowisku Adobe. Mamy ponad 40 różnych produktów i wszystkie są zautomatyzowane. Dane
+                    potrzebne do przygotowania danego zlecenia wpadają z wewnętrznego serwera naszej firmy.
                     Użytkownik (drukarz) jedyne co musi zrobić to kliknąć "drukuj". Całość przechodzi przez wiele filtrów w
                     zależności od maszyny na jakiej będzie drukowane zlecenie, czy też kraj wysyłki, rozmiar, technologię
-                    druku i wiele innych. Dłuższy temat.
+                    druku i wiele innych. Dłuższy temat 😁.
                 </p>
             </>}
         />
