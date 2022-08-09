@@ -6,6 +6,9 @@
 ## Description
 As one of my homework, I was going to make a small and simple to-do list app.
 
+## Update 09.08.2022
+Added navigation bar working as single page application (React Router). Again added localStorage using Redux-Saga and example Tasks.
+
 ## Update 02.08.2022
 Application is running with React-Redux and Styled Components
 
