@@ -7,7 +7,7 @@ import Search from "./Search";
 import Buttons from "../../Buttons";
 import { ActionButtons } from "../../Buttons/styled";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchExampleTasks, selectAreTaskEmpty, selectHideDone, selectIsEveryTaskDone, setAllDone, toggleHideDone } from "../tasksSlice";
+import { fetchExampleTasks, selectAreTaskEmpty, selectHideDone, selectIsEveryTaskDone, selectLoading, setAllDone, toggleHideDone } from "../tasksSlice";
 
 
 function TasksPage() {
@@ -15,6 +15,7 @@ function TasksPage() {
    const areTasksEmpty = useSelector(selectAreTaskEmpty);
    const isEveryTaskDone = useSelector(selectIsEveryTaskDone);
    const hideDone = useSelector(selectHideDone);
+   const isLoading = useSelector(selectLoading);
 
    const dispatch = useDispatch();
 
@@ -26,8 +27,9 @@ function TasksPage() {
             body={<Form />}
             extraHeaderContent={
                <Buttons
-                  query={"Pobierz przykładowe zadania"}
+                  query={`${isLoading ? "Ładowanie..." : "Pobierz przykładowe zadania"}`}
                   onClick={() => dispatch(fetchExampleTasks())}
+                  disabled={isLoading}
                />
             }
          />
