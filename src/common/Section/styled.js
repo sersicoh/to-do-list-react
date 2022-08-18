@@ -25,5 +25,5 @@ export const SectionsTitle = styled.h2`
 `;
 
 export const SectionsBody = styled.div`
-    padding: 10px;
+    padding: 18px;
 `;
